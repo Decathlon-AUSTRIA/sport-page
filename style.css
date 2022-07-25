@@ -1,0 +1,414 @@
+/* START OVERRIDE DEFAULT ONESHOP CRATIVE ELEMENTS STYLES */
+
+@media (max-width: 1024px) {
+  #content-wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+main:not(.page--sports) .page-cms {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+main:not(.page--sports) .page-cms h1 {
+  margin-top: 0 !important;
+}
+.elementor-column-gap-default .elementor-element-populated {
+  padding: 0 !important;
+}
+
+#main .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+main:not(.page--sports) .page-cms ul {
+  list-style: none;
+}
+
+@media (min-width: 576px) {
+  #main .container {
+    width: 100% !important;
+  }
+
+  .page-content li,
+  .page-content p {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .elementor-widget-wrap {
+    z-index: auto !important;
+  }
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 100%;
+}
+/* END OVERRIDE DEFAULT ONESHOP CRATIVE ELEMENTS STYLES */
+
+/* --- START OVERRIDE CSS ELEMENTOR FOR SP COMPONENTS --- */
+
+/* product slider */
+.sportLp__section-title,
+.products-slider1 {
+  background-color: #f4f5f7 !important;
+}
+
+.products-slider1__display-category-btn p {
+  color: #fff;
+  font-size: 12px;
+}
+.products-slider1__display-category-btn p span {
+  max-width: 82% !important;
+}
+
+.products-slider1 .swiper-container {
+  border: none !important;
+}
+
+/*article*/
+.article1 .article1__content--categoryName {
+  margin-bottom: 15px !important;
+}
+.article1 .article1__content--text {
+  margin-bottom: 18px !important;
+}
+
+@media (min-width: 1024px) {
+  .article1 .article1__content--text {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* 2 categories  */
+.two-categories .category__title {
+  margin-bottom: 20px !important;
+}
+
+/* 3 categories */
+.three-categories .category__title {
+  margin-bottom: 20px !important;
+}
+
+/* 4 categories */
+.four-categories .category__title {
+  margin-bottom: 20px !important;
+}
+
+/* slider 2 */
+.products-slider2__img-price-label--price {
+  color: #242323 !important;
+  margin-bottom: 0 !important;
+  font-weight: bold !important;
+  font-size: 28px !important;
+}
+.products-slider2__img-price-label--ab {
+  margin-bottom: 0 !important;
+  color: #242323 !important;
+  font-size: 11px !important;
+}
+.products-slider2__item {
+  color: #242323 !important;
+}
+
+@media (min-width: 760px) {
+  .products-slider2__img-price-label--deci-container span {
+    font-size: 9px !important;
+    line-height: 0.9;
+  }
+}
+/* --- END OVERRIDE CSS ELEMENTOR FOR SP COMPONENTS --- */
+
+/* START PAGE STYLES */
+.sportpage {
+  position: relative;
+}
+
+.sportpage__content--box {
+  margin-bottom: 10px;
+}
+
+.sportpage__header--img {
+  display: none;
+}
+
+.sportpage__header--text p {
+  color: #3d3d3d;
+  text-align: left;
+}
+
+.sportpage__header--text h1 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.sportpage__menu {
+  margin-bottom: 0 !important;
+}
+
+.sportLp__section-title {
+  font-size: 20px !important;
+}
+
+/*set overflow visible for menu sticky position*/
+body,
+html {
+  overflow-x: visible !important;
+}
+
+.sportpage__header--text {
+  text-align: center;
+  padding: 32px 32px 0 32px;
+}
+
+.sportpage__header--text h1,
+.sportpage__header--text p {
+  margin-bottom: 10px;
+}
+
+.sportpage__content {
+  background-color: #f4f5f7;
+  padding: 30px 0;
+}
+
+/* start nav styles*/
+
+.sportpage__menu-item {
+  padding: 3px 10px 3px 10px;
+}
+.sportpage__menu-item:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.sportpage__menu-item-content--left-img img {
+  width: 40px;
+  height: auto;
+}
+
+.sportpage__menu-item-content--right i {
+  color: #242323;
+  font-size: 12px;
+}
+
+.sportpage__menu-item-content,
+.sportpage__menu-item-content--left,
+.sportpage__submenu-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sportpage__menu-item-content--left {
+  margin-left: 16px;
+}
+.sportpage__menu-item-content--right {
+  margin-right: 16px;
+}
+
+.sportpage__menu-item-content--left-text {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #242323;
+  line-height: 1.2;
+  margin-left: 8px;
+  padding-right: 4px;
+}
+
+.sportpage__submenu-item-content--left {
+  margin-left: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 6px 10px 6px 5px;
+  color: #242323;
+  cursor: pointer;
+}
+
+.sportpage__submenu-item-content--left:hover {
+  color: #0082c3;
+}
+
+.sportpage__submenu {
+  overflow: hidden;
+  max-height: 0;
+  border-top: 2px solid #fff;
+  /*transition: max-height 300ms ease-out;*/
+}
+
+.active-submenu {
+  max-height: 800px;
+  height: auto;
+  transition: max-height 800ms ease-out;
+}
+
+.sportpage__submenu-item-content--right {
+  margin-right: 16px;
+  font-size: 12px;
+  color: gray;
+}
+.sportpage__submenu-item {
+  padding: 6px 2px;
+}
+
+.fa-minus {
+  display: none;
+}
+
+.sportpage__menu,
+.sportpage__submenu {
+  list-style: none !important;
+  padding-left: 0;
+}
+
+/* end nav styles*/
+
+/* ### DESKTOP STYLES ### */
+@media (min-width: 1024px) {
+  .sportpage {
+    background-color: #f4f5f7;
+  }
+
+  .sportpage__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px 20px;
+  }
+  .sportpage__header--text {
+    text-align: left;
+    padding: 32px 37px 32px 80px;
+  }
+
+  .sportpage__header--text p {
+    font-size: 14px !important;
+    margin-top: 17px;
+  }
+
+  .sportpage__header--img {
+    display: block;
+  }
+
+  #header-img {
+    width: 290px;
+    height: 226px;
+    background-image: url("https://contents.mediadecathlon.com/p1744077/k$a3948924176816d21032e01e24907154/KALENJI%20CHAUSSURES%20RUN%20ACTIVE%20F.jpg?f=819x619");
+    background-size: cover;
+    -webkit-box-shadow: -2px 7px 15px -3px rgba(0, 0, 0, 0.47);
+    box-shadow: -2px 7px 15px -3px rgba(0, 0, 0, 0.47);
+    margin: 0 9px 0 0;
+  }
+
+  .sportpage__nav-container {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 275px;
+    height: 100%;
+    padding-top: 5px;
+    background-color: #fff;
+  }
+
+  .sportpage__menu-item {
+    padding: 0;
+    cursor: pointer;
+  }
+  .sportpage__menu-item:not(:last-child) {
+    border-bottom: none;
+  }
+
+  .sportpage__nav {
+    height: 100%;
+  }
+
+  .sportpage__menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow-y: scroll;
+    height: 600px;
+    border-bottom: 0.5px solid #eee;
+    margin-bottom: 0 !important;
+    padding-bottom: 30px;
+  }
+
+  .sportpage__menu-item-content--left {
+    padding: 0 2px;
+  }
+
+  .sportpage__header,
+  .sportpage__content {
+    padding-left: 275px;
+    margin: 0 auto;
+    /*max-width: 80%;*/
+    /*background-color: #f4f5f7;*/
+  }
+
+  .sportpage__content {
+    min-height: 500px;
+  }
+
+  /* start scroll bat menu styles */
+  .sportpage__menu::-webkit-scrollbar {
+    width: 9px; /* width of the entire scrollbar */
+  }
+
+  .sportpage__menu::-webkit-scrollbar-track {
+    background: white; /* color of the tracking area */
+  }
+
+  .sportpage__menu::-webkit-scrollbar-thumb {
+    background-color: #eee; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid white; /* creates padding around scroll thumb */
+  }
+  /* end scroll bat menu styles */
+
+  .sportpage__menu-item-content--left-text {
+    max-width: 170px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header-img {
+    width: 400px;
+    height: 270px;
+  }
+  .sportLp__section-title {
+    margin-left: 83px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .sportpage__header,
+  .sportpage__content {
+    max-width: 1200px;
+  }
+
+  .sportpage__menu {
+    height: 700px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .sportpage__header,
+  .sportpage__content {
+    max-width: 1700px;
+    /*max-width: 70%;*/
+  }
+  .sportpage__header {
+    padding-right: 85px;
+  }
+
+  .sportpage__menu {
+    height: 900px;
+  }
+}
+/* END PAGE STYLES */
